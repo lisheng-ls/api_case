@@ -1,0 +1,1 @@
+2026-11-03 17:47:09.127 | ERROR    | __main__:json_info_sub:123 - 根据$.entity.mobile从{'entity': {'customer_name': '沙陌001', 'mobil1e': '18729399607', 'telephone': '01028375678', 'website': 'http://mtongxue.com/', 'next_time': "${{rdm_future_date_time('+10d')}}", 'remark': '这是备注', 'address': '北京市,北京城区,昌平区', 'detailAddress': '霍营地铁口', 'location': '', 'lng': '', 'lat': ''}}中没有提取到数据

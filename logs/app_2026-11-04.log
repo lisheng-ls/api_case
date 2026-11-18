@@ -1,0 +1,9 @@
+2026-11-04 14:33:32.803 | INFO     | __main__:request_func:13 - 接口的url是http://193.112.98.218:18081/api-dev/api/collegecolumn/public/list
+2026-11-04 14:33:32.805 | INFO     | __main__:request_func:13 - 接口的method是get
+2026-11-04 14:47:25.167 | INFO     | __main__:request_func:14 - 接口的url是http://193.112.98.218:18081/api-dev/api/collegecolumn/public/list
+2026-11-04 14:47:25.167 | INFO     | __main__:request_func:14 - 接口的method是get
+2026-11-04 14:47:50.900 | INFO     | __main__:request_func:14 - 接口的url是http://193.112.98.218:18081/api-dev/api/collegecolumn/public/list
+2026-11-04 14:47:50.900 | INFO     | __main__:request_func:14 - 接口的method是get
+2026-11-04 14:53:45.187 | INFO     | __main__:request_func:14 - 接口的url是http://193.112.98.218:18081/api-dev/api/collegecolumn/public/list
+2026-11-04 14:53:45.187 | INFO     | __main__:request_func:14 - 接口的method是get
+2026-11-04 14:53:45.252 | INFO     | __main__:get_response_info:31 - 根据$..message1，提取的结果为空

@@ -1,0 +1,700 @@
+2026-11-18 11:04:27.483 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:04:27.483 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:04:27.483 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:04:27.545 | INFO     | main:login:55 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': '267819e56d4e4f73a588313e65d1a60f', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:04:27.566 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:04:27.567 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:04:27.567 | INFO     | common.client:send:14 - 接口的headers是{'token': '267819e56d4e4f73a588313e65d1a60f'}
+2026-11-18 11:04:27.567 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:04:27.568 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:04:27.568 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:04:27.568 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:04:27.648 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:04:27.649 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:04:27.649 | INFO     | common.client:send:14 - 接口的headers是{'Token': '267819e56d4e4f73a588313e65d1a60f'}
+2026-11-18 11:04:27.649 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:04:27.649 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:04:27.650 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:04:27.650 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:04:27.722 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:04:27.722 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:04:27.722 | INFO     | common.client:send:14 - 接口的headers是{'Token': '267819e56d4e4f73a588313e65d1a60f'}
+2026-11-18 11:04:27.722 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:04:27.723 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:04:27.723 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:04:27.723 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:04:28.058 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:04:28.058 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:04:28.058 | INFO     | common.client:send:14 - 接口的headers是{'Token': '267819e56d4e4f73a588313e65d1a60f'}
+2026-11-18 11:04:28.059 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:04:28.059 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:04:28.059 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:04:28.060 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:04:28.119 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:04:28.119 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:04:28.119 | INFO     | common.client:send:14 - 接口的headers是{'Token': '267819e56d4e4f73a588313e65d1a60f'}
+2026-11-18 11:04:28.120 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:04:28.120 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:04:28.120 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:04:28.120 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:04:28.224 | INFO     | main:login:58 - 所有用例执行完成，开始退出
+2026-11-18 11:34:35.878 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:34:35.878 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:34:35.878 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:34:35.928 | INFO     | main:login:55 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': '507a055f39e849d3a1f7eeeecca02109', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:34:35.948 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:34:35.949 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:34:35.949 | INFO     | common.client:send:14 - 接口的headers是{'token': '507a055f39e849d3a1f7eeeecca02109'}
+2026-11-18 11:34:35.949 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:34:35.950 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:34:35.950 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:34:35.950 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:34:36.030 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:34:36.031 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:34:36.031 | INFO     | common.client:send:14 - 接口的headers是{'Token': '507a055f39e849d3a1f7eeeecca02109'}
+2026-11-18 11:34:36.031 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:34:36.031 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:34:36.032 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:34:36.032 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:34:36.081 | INFO     | main:test_run:153 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:34:36.081 | INFO     | main:test_run:153 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:34:36.102 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:34:36.102 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:34:36.103 | INFO     | common.client:send:14 - 接口的headers是{'Token': '507a055f39e849d3a1f7eeeecca02109'}
+2026-11-18 11:34:36.103 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:34:36.103 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:34:36.103 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:34:36.104 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:34:36.443 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:34:36.443 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:34:36.443 | INFO     | common.client:send:14 - 接口的headers是{'Token': '507a055f39e849d3a1f7eeeecca02109'}
+2026-11-18 11:34:36.444 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:34:36.444 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:34:36.444 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:34:36.444 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:34:36.490 | INFO     | main:test_run:153 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:34:36.490 | INFO     | main:test_run:153 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:34:36.509 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:34:36.509 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:34:36.509 | INFO     | common.client:send:14 - 接口的headers是{'Token': '507a055f39e849d3a1f7eeeecca02109'}
+2026-11-18 11:34:36.510 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:34:36.510 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:34:36.510 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:34:36.510 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:34:36.594 | INFO     | main:login:58 - 所有用例执行完成，开始退出
+2026-11-18 11:38:37.146 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:38:37.146 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:38:37.147 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:38:37.200 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': '41f1f89a736d46568a57d8c58ead72e4', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:38:37.220 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:38:37.220 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:38:37.220 | INFO     | common.client:send:14 - 接口的headers是{'token': '41f1f89a736d46568a57d8c58ead72e4'}
+2026-11-18 11:38:37.220 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:38:37.221 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:38:37.221 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:38:37.221 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:38:37.292 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:38:37.292 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:38:37.292 | INFO     | common.client:send:14 - 接口的headers是{'Token': '41f1f89a736d46568a57d8c58ead72e4'}
+2026-11-18 11:38:37.292 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:38:37.292 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:38:37.293 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:38:37.293 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:38:37.347 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:38:37.347 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:38:37.365 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:38:37.365 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:38:37.365 | INFO     | common.client:send:14 - 接口的headers是{'Token': '41f1f89a736d46568a57d8c58ead72e4'}
+2026-11-18 11:38:37.365 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:38:37.365 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:38:37.366 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:38:37.366 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:38:37.702 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:38:37.702 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:38:37.702 | INFO     | common.client:send:14 - 接口的headers是{'Token': '41f1f89a736d46568a57d8c58ead72e4'}
+2026-11-18 11:38:37.702 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:38:37.703 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:38:37.703 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:38:37.703 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:38:37.742 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:38:37.743 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:38:37.761 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:38:37.761 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:38:37.761 | INFO     | common.client:send:14 - 接口的headers是{'Token': '41f1f89a736d46568a57d8c58ead72e4'}
+2026-11-18 11:38:37.761 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:38:37.761 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:38:37.761 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:38:37.761 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:38:37.846 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:40:29.682 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:40:29.682 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:40:29.682 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:40:29.862 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': 'dc9377a668da4e318457cb2d08f9a98b', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:40:29.882 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:40:29.882 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:40:29.883 | INFO     | common.client:send:14 - 接口的headers是{'token': 'dc9377a668da4e318457cb2d08f9a98b'}
+2026-11-18 11:40:29.883 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:40:29.883 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:40:29.884 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:40:29.884 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:40:30.092 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:40:30.093 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:40:30.093 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'dc9377a668da4e318457cb2d08f9a98b'}
+2026-11-18 11:40:30.093 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:40:30.093 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:40:30.094 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:40:30.094 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:40:30.266 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:40:30.266 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:40:30.284 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:40:30.285 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:40:30.285 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'dc9377a668da4e318457cb2d08f9a98b'}
+2026-11-18 11:40:30.285 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:40:30.285 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:40:30.286 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:40:30.286 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:40:30.776 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:40:30.777 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:40:30.777 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'dc9377a668da4e318457cb2d08f9a98b'}
+2026-11-18 11:40:30.777 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:40:30.777 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:40:30.778 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:40:30.778 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:40:30.960 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:40:30.960 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:40:30.979 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:40:30.979 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:40:30.979 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'dc9377a668da4e318457cb2d08f9a98b'}
+2026-11-18 11:40:30.980 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:40:30.980 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:40:30.980 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:40:30.980 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:40:31.210 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:42:14.846 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:42:14.846 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:42:14.846 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:42:14.905 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': 'e42589b499f24a12b76292226f29f011', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:42:14.928 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:42:14.928 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:42:14.928 | INFO     | common.client:send:14 - 接口的headers是{'token': 'e42589b499f24a12b76292226f29f011'}
+2026-11-18 11:42:14.928 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:42:14.928 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:42:14.928 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:42:14.928 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:42:15.022 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:42:15.022 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:42:15.023 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'e42589b499f24a12b76292226f29f011'}
+2026-11-18 11:42:15.023 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:42:15.023 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:42:15.023 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:42:15.023 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:42:15.088 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:42:15.088 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:42:15.107 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:42:15.107 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:42:15.108 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'e42589b499f24a12b76292226f29f011'}
+2026-11-18 11:42:15.108 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:42:15.108 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:42:15.108 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:42:15.108 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:42:15.438 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:42:15.439 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:42:15.439 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'e42589b499f24a12b76292226f29f011'}
+2026-11-18 11:42:15.439 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:42:15.439 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:42:15.439 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:42:15.440 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:42:15.486 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:42:15.487 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:42:15.505 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:42:15.505 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:42:15.505 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'e42589b499f24a12b76292226f29f011'}
+2026-11-18 11:42:15.505 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:42:15.505 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:42:15.506 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:42:15.506 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:42:15.589 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:42:47.284 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:42:47.285 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:42:47.285 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:42:47.332 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': 'b893b7dd7acd47d89c8f8c1e38abbf0a', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:42:47.352 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:42:47.352 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:42:47.352 | INFO     | common.client:send:14 - 接口的headers是{'token': 'b893b7dd7acd47d89c8f8c1e38abbf0a'}
+2026-11-18 11:42:47.353 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:42:47.353 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:42:47.353 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:42:47.353 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:42:47.430 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:42:47.430 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:42:47.430 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b893b7dd7acd47d89c8f8c1e38abbf0a'}
+2026-11-18 11:42:47.431 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:42:47.431 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:42:47.431 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:42:47.431 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:42:47.479 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:42:47.479 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:42:47.497 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:42:47.497 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:42:47.498 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b893b7dd7acd47d89c8f8c1e38abbf0a'}
+2026-11-18 11:42:47.498 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:42:47.498 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:42:47.498 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:42:47.498 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:42:47.837 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:42:47.837 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:42:47.838 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b893b7dd7acd47d89c8f8c1e38abbf0a'}
+2026-11-18 11:42:47.838 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:42:47.838 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:42:47.838 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:42:47.838 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:42:47.896 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:42:47.896 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:42:47.914 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:42:47.915 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:42:47.915 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b893b7dd7acd47d89c8f8c1e38abbf0a'}
+2026-11-18 11:42:47.915 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:42:47.915 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:42:47.915 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:42:47.915 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:42:47.997 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:43:32.434 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:43:32.434 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:43:32.435 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:43:32.488 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': 'b3ca67ee32384e82a6853c9c7e399cad', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:43:32.510 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:43:32.510 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:43:32.510 | INFO     | common.client:send:14 - 接口的headers是{'token': 'b3ca67ee32384e82a6853c9c7e399cad'}
+2026-11-18 11:43:32.510 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:43:32.510 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:43:32.510 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:43:32.510 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:43:32.583 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:43:32.583 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:43:32.583 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b3ca67ee32384e82a6853c9c7e399cad'}
+2026-11-18 11:43:32.583 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:43:32.584 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:43:32.584 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:43:32.584 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:43:32.638 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:43:32.638 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:43:32.656 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:43:32.657 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:43:32.657 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b3ca67ee32384e82a6853c9c7e399cad'}
+2026-11-18 11:43:32.657 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:43:32.657 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:43:32.658 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:43:32.658 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:43:32.983 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:43:32.983 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:43:32.983 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b3ca67ee32384e82a6853c9c7e399cad'}
+2026-11-18 11:43:32.983 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:43:32.984 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:43:32.984 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:43:32.984 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:43:33.039 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:43:33.039 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:43:33.058 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:43:33.058 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:43:33.058 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b3ca67ee32384e82a6853c9c7e399cad'}
+2026-11-18 11:43:33.058 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:43:33.058 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:43:33.058 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:43:33.058 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:43:33.141 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:43:55.891 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:43:55.892 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:43:55.892 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:43:56.951 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': 'bb86c8d8468c471c8c5697cfec831f8e', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:43:56.972 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:43:56.972 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:43:56.972 | INFO     | common.client:send:14 - 接口的headers是{'token': 'bb86c8d8468c471c8c5697cfec831f8e'}
+2026-11-18 11:43:56.973 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:43:56.973 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:43:56.973 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:43:56.973 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:43:58.336 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:43:58.336 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:43:58.336 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'bb86c8d8468c471c8c5697cfec831f8e'}
+2026-11-18 11:43:58.336 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:43:58.336 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:43:58.337 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:43:58.337 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:43:58.884 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:43:58.885 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:43:58.903 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:43:58.903 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:43:58.903 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'bb86c8d8468c471c8c5697cfec831f8e'}
+2026-11-18 11:43:58.903 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:43:58.904 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:43:58.904 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:43:58.904 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:43:59.371 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:43:59.371 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:43:59.371 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'bb86c8d8468c471c8c5697cfec831f8e'}
+2026-11-18 11:43:59.372 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:43:59.372 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:43:59.372 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:43:59.372 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:43:59.563 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:43:59.563 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:43:59.582 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:43:59.582 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:43:59.582 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'bb86c8d8468c471c8c5697cfec831f8e'}
+2026-11-18 11:43:59.582 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:43:59.582 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:43:59.582 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:43:59.583 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:43:59.792 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:45:38.261 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:45:38.261 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:45:38.261 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:45:38.377 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': 'a2df54b31ecd40d98b70ff674b0a8d46', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:45:38.397 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:45:38.397 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:45:38.397 | INFO     | common.client:send:14 - 接口的headers是{'token': 'a2df54b31ecd40d98b70ff674b0a8d46'}
+2026-11-18 11:45:38.398 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:45:38.398 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:45:38.398 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:45:38.398 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:45:38.478 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:45:38.479 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:45:38.479 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'a2df54b31ecd40d98b70ff674b0a8d46'}
+2026-11-18 11:45:38.479 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:45:38.479 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:45:38.479 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:45:38.479 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:45:38.569 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:45:38.569 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:45:38.587 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:45:38.588 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:45:38.588 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'a2df54b31ecd40d98b70ff674b0a8d46'}
+2026-11-18 11:45:38.588 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:45:38.588 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:45:38.588 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:45:38.588 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:45:38.946 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:45:38.946 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:45:38.946 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'a2df54b31ecd40d98b70ff674b0a8d46'}
+2026-11-18 11:45:38.946 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:45:38.947 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:45:38.947 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:45:38.947 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:45:39.060 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:45:39.060 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:45:39.078 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:45:39.078 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:45:39.079 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'a2df54b31ecd40d98b70ff674b0a8d46'}
+2026-11-18 11:45:39.079 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:45:39.079 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:45:39.079 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:45:39.079 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:45:39.184 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:47:06.387 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:47:06.387 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:47:06.388 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:47:06.445 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': '21f6ddd81a2d40788fe482f7988557fb', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:47:06.467 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:47:06.468 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:47:06.468 | INFO     | common.client:send:14 - 接口的headers是{'token': '21f6ddd81a2d40788fe482f7988557fb'}
+2026-11-18 11:47:06.468 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:47:06.468 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:47:06.468 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:47:06.468 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:47:06.536 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:47:06.536 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:47:06.536 | INFO     | common.client:send:14 - 接口的headers是{'Token': '21f6ddd81a2d40788fe482f7988557fb'}
+2026-11-18 11:47:06.536 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:47:06.537 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:47:06.537 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:47:06.537 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:47:06.592 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:47:06.593 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:47:06.611 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:47:06.611 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:47:06.612 | INFO     | common.client:send:14 - 接口的headers是{'Token': '21f6ddd81a2d40788fe482f7988557fb'}
+2026-11-18 11:47:06.612 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:47:06.612 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:47:06.612 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:47:06.612 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:47:06.946 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:47:06.946 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:47:06.946 | INFO     | common.client:send:14 - 接口的headers是{'Token': '21f6ddd81a2d40788fe482f7988557fb'}
+2026-11-18 11:47:06.946 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:47:06.946 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:47:06.947 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:47:06.947 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:47:07.004 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:47:07.004 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:47:07.022 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:47:07.022 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:47:07.022 | INFO     | common.client:send:14 - 接口的headers是{'Token': '21f6ddd81a2d40788fe482f7988557fb'}
+2026-11-18 11:47:07.023 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:47:07.023 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:47:07.023 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:47:07.023 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:47:07.094 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:48:54.572 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:48:54.573 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:48:54.573 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:48:54.631 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': 'ac830262d3164f9c9c69ec2bc425d83e', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:48:54.651 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:48:54.651 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:48:54.651 | INFO     | common.client:send:14 - 接口的headers是{'token': 'ac830262d3164f9c9c69ec2bc425d83e'}
+2026-11-18 11:48:54.651 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:48:54.651 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:48:54.652 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:48:54.652 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:48:54.725 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:48:54.725 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:48:54.725 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'ac830262d3164f9c9c69ec2bc425d83e'}
+2026-11-18 11:48:54.725 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:48:54.725 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:48:54.726 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:48:54.726 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:48:54.779 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:48:54.780 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:48:54.798 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:48:54.798 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:48:54.798 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'ac830262d3164f9c9c69ec2bc425d83e'}
+2026-11-18 11:48:54.798 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:48:54.799 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:48:54.799 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:48:54.799 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:48:55.129 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:48:55.129 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:48:55.129 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'ac830262d3164f9c9c69ec2bc425d83e'}
+2026-11-18 11:48:55.130 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:48:55.130 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:48:55.130 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:48:55.130 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:48:55.184 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:48:55.184 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:48:55.206 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:48:55.206 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:48:55.207 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'ac830262d3164f9c9c69ec2bc425d83e'}
+2026-11-18 11:48:55.207 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:48:55.207 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:48:55.207 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:48:55.208 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:48:55.280 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:49:32.900 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:49:32.900 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:49:32.900 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:49:32.953 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': '7ba9a86980f84c859819eb620b3c542f', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:49:32.973 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:49:32.974 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:49:32.974 | INFO     | common.client:send:14 - 接口的headers是{'token': '7ba9a86980f84c859819eb620b3c542f'}
+2026-11-18 11:49:32.974 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:49:32.974 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:49:32.975 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:49:32.975 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:49:33.047 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:49:33.048 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:49:33.048 | INFO     | common.client:send:14 - 接口的headers是{'Token': '7ba9a86980f84c859819eb620b3c542f'}
+2026-11-18 11:49:33.048 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:49:33.048 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:49:33.048 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:49:33.048 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:49:33.090 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:49:33.090 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:49:33.111 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:49:33.111 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:49:33.111 | INFO     | common.client:send:14 - 接口的headers是{'Token': '7ba9a86980f84c859819eb620b3c542f'}
+2026-11-18 11:49:33.111 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:49:33.111 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:49:33.111 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:49:33.111 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:49:33.458 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:49:33.459 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:49:33.459 | INFO     | common.client:send:14 - 接口的headers是{'Token': '7ba9a86980f84c859819eb620b3c542f'}
+2026-11-18 11:49:33.459 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:49:33.459 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:49:33.459 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:49:33.459 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:49:33.508 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:49:33.508 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:49:33.527 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:49:33.527 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:49:33.527 | INFO     | common.client:send:14 - 接口的headers是{'Token': '7ba9a86980f84c859819eb620b3c542f'}
+2026-11-18 11:49:33.528 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:49:33.528 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:49:33.528 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:49:33.528 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:49:33.611 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:52:34.089 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:52:34.089 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:52:34.089 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:52:34.144 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': 'c575d6b58cfd44829969b852a2212847', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:52:34.166 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:52:34.166 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:52:34.166 | INFO     | common.client:send:14 - 接口的headers是{'token': 'c575d6b58cfd44829969b852a2212847'}
+2026-11-18 11:52:34.167 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:52:34.167 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:52:34.167 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:52:34.167 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:52:34.235 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:52:34.235 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:52:34.235 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'c575d6b58cfd44829969b852a2212847'}
+2026-11-18 11:52:34.235 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:52:34.236 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:52:34.236 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:52:34.236 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:52:34.276 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:52:34.276 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:52:34.294 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:52:34.294 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:52:34.294 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'c575d6b58cfd44829969b852a2212847'}
+2026-11-18 11:52:34.295 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:52:34.295 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:52:34.295 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:52:34.295 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:52:34.638 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:52:34.638 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:52:34.638 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'c575d6b58cfd44829969b852a2212847'}
+2026-11-18 11:52:34.638 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:52:34.638 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:52:34.638 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:52:34.639 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:52:34.707 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:52:34.708 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:52:34.725 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:52:34.726 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:52:34.726 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'c575d6b58cfd44829969b852a2212847'}
+2026-11-18 11:52:34.726 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:52:34.726 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:52:34.727 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:52:34.727 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:52:34.810 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:55:15.447 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:55:15.447 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:55:15.447 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:55:15.504 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': 'b2816d86ea924e889dbd8ce757db8e1a', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:55:15.524 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:55:15.524 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:55:15.525 | INFO     | common.client:send:14 - 接口的headers是{'token': 'b2816d86ea924e889dbd8ce757db8e1a'}
+2026-11-18 11:55:15.525 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:55:15.525 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:55:15.525 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:55:15.525 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:55:15.592 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:55:15.592 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:55:15.593 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b2816d86ea924e889dbd8ce757db8e1a'}
+2026-11-18 11:55:15.593 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:55:15.593 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:55:15.593 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:55:15.593 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:55:15.638 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:55:15.638 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:55:15.656 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:55:15.657 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:55:15.657 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b2816d86ea924e889dbd8ce757db8e1a'}
+2026-11-18 11:55:15.657 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:55:15.657 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:55:15.657 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:55:15.657 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:55:16.002 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:55:16.002 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:55:16.003 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b2816d86ea924e889dbd8ce757db8e1a'}
+2026-11-18 11:55:16.003 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:55:16.003 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:55:16.003 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:55:16.003 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:55:16.056 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:55:16.057 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:55:16.075 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:55:16.075 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:55:16.075 | INFO     | common.client:send:14 - 接口的headers是{'Token': 'b2816d86ea924e889dbd8ce757db8e1a'}
+2026-11-18 11:55:16.075 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:55:16.076 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:55:16.076 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:55:16.076 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:55:16.162 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 11:58:57.861 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 11:58:57.861 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:58:57.862 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 11:58:57.921 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': '4b80341b6802484bbbe73f08a9f2caf4', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:58:57.942 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 11:58:57.943 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 11:58:57.943 | INFO     | common.client:send:14 - 接口的headers是{'token': '4b80341b6802484bbbe73f08a9f2caf4'}
+2026-11-18 11:58:57.943 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 11:58:57.944 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:58:57.944 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:58:57.944 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:58:58.028 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:58:58.028 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:58:58.029 | INFO     | common.client:send:14 - 接口的headers是{'Token': '4b80341b6802484bbbe73f08a9f2caf4'}
+2026-11-18 11:58:58.029 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:58:58.029 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:58:58.029 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:58:58.030 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:58:58.075 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:58:58.075 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:58:58.094 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:58:58.094 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:58:58.094 | INFO     | common.client:send:14 - 接口的headers是{'Token': '4b80341b6802484bbbe73f08a9f2caf4'}
+2026-11-18 11:58:58.094 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:58:58.095 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:58:58.095 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:58:58.095 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:58:58.427 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 11:58:58.428 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 11:58:58.428 | INFO     | common.client:send:14 - 接口的headers是{'Token': '4b80341b6802484bbbe73f08a9f2caf4'}
+2026-11-18 11:58:58.428 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 11:58:58.429 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:58:58.429 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:58:58.429 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:58:58.487 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 11:58:58.487 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 11:58:58.509 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 11:58:58.509 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 11:58:58.510 | INFO     | common.client:send:14 - 接口的headers是{'Token': '4b80341b6802484bbbe73f08a9f2caf4'}
+2026-11-18 11:58:58.510 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 11:58:58.510 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 11:58:58.510 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 11:58:58.510 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 11:58:58.603 | INFO     | main:login:59 - 所有用例执行完成，开始退出
+2026-11-18 12:00:29.420 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/login
+2026-11-18 12:00:29.421 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 12:00:29.421 | INFO     | common.client:send:14 - 接口的json是{'jobNum': '20250121001', 'password': '123456'}
+2026-11-18 12:00:29.481 | INFO     | main:login:56 - 登录成功，token和uuid已经存入环境变量中：{'host': 'http://124.70.206.40:60002/', 'username': 20250121001, 'password': 123456, 'token': '7c1ca450b3dd4534beefd5cf75f31923', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 12:00:29.501 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workUser/changePassword
+2026-11-18 12:00:29.501 | INFO     | common.client:send:14 - 接口的method是post
+2026-11-18 12:00:29.501 | INFO     | common.client:send:14 - 接口的headers是{'token': '7c1ca450b3dd4534beefd5cf75f31923'}
+2026-11-18 12:00:29.502 | INFO     | common.client:send:14 - 接口的json是{'password': '123456', 'uuid': '7ef28525f033c6adee3dd412df68aa33'}
+2026-11-18 12:00:29.502 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 12:00:29.502 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 12:00:29.502 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 12:00:29.586 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 12:00:29.586 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 12:00:29.587 | INFO     | common.client:send:14 - 接口的headers是{'Token': '7c1ca450b3dd4534beefd5cf75f31923'}
+2026-11-18 12:00:29.587 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 12:00:29.587 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 12:00:29.587 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 12:00:29.587 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 12:00:29.640 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 12:00:29.641 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 12:00:29.659 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 12:00:29.659 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 12:00:29.659 | INFO     | common.client:send:14 - 接口的headers是{'Token': '7c1ca450b3dd4534beefd5cf75f31923'}
+2026-11-18 12:00:29.660 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 12:00:29.660 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 12:00:29.660 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 12:00:29.661 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 12:00:30.002 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/humanProject/humanProjectList?type=
+2026-11-18 12:00:30.003 | INFO     | common.client:send:14 - 接口的method是get
+2026-11-18 12:00:30.003 | INFO     | common.client:send:14 - 接口的headers是{'Token': '7c1ca450b3dd4534beefd5cf75f31923'}
+2026-11-18 12:00:30.003 | INFO     | common.client:send:14 - 接口的json是None
+2026-11-18 12:00:30.004 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 12:00:30.004 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 12:00:30.004 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 12:00:30.051 | INFO     | main:test_run:154 - 变量：humanUuid的值提取成功为：cdc41d6ced261cd5ae39958e98f01b38
+2026-11-18 12:00:30.051 | INFO     | main:test_run:154 - 变量：projectUuid的值提取成功为：53a613951a89373d2c79d2c14d3ec048
+2026-11-18 12:00:30.070 | INFO     | common.client:send:14 - 接口的url是http://124.70.206.40:60002//pfpj/api/work/workProjectHours/saveHours
+2026-11-18 12:00:30.070 | INFO     | common.client:send:14 - 接口的method是POST
+2026-11-18 12:00:30.070 | INFO     | common.client:send:14 - 接口的headers是{'Token': '7c1ca450b3dd4534beefd5cf75f31923'}
+2026-11-18 12:00:30.071 | INFO     | common.client:send:14 - 接口的json是{'projectUuid': '53a613951a89373d2c79d2c14d3ec048', 'humanUuid': 'cdc41d6ced261cd5ae39958e98f01b38', 'hours': '8', 'content': '课题规划项目测试', 'workDate': '20261117', 'auditState': '0'}
+2026-11-18 12:00:30.071 | INFO     | common.client:send:14 - 接口的data是None
+2026-11-18 12:00:30.071 | INFO     | common.client:send:14 - 接口的params是None
+2026-11-18 12:00:30.071 | INFO     | common.client:send:14 - 接口的files是None
+2026-11-18 12:00:30.156 | INFO     | main:login:59 - 所有用例执行完成，开始退出

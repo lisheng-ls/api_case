@@ -1,0 +1,22 @@
+[project]
+name = "pythonproject"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "allure-pytest>=2.16.2",
+    "dotenv>=0.9.9",
+    "faker==40.44.0",
+    "grandalf>=0.8",
+    "jsonpath>=0.82.2",
+    "jsonpath-ng>=1.15.0",
+    "langchain>=1.5.0",
+    "langchain-openai>=1.8.1",
+    "langgraph>=1.2.22",
+    "loguru>=0.7.3",
+    "openai>=3.54.0",
+    "openpyxl==3.1.5",
+    "pytest>=9.2.0",
+    "requests>=2.34.2",
+]
+[tool.uv]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
